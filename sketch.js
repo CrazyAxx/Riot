@@ -115,7 +115,7 @@ var Ball = function(){
 };
 function keyTyped() {
  if( key === 's' ) {
-   saveCanvas( 'stole this from Collin' , 'jpg' );
+   saveCanvas( 'canvas' , 'jpg' );
    console.log("saved");
  }
  if( key === 'n' ){
